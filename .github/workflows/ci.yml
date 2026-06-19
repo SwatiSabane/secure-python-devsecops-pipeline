@@ -27,3 +27,9 @@ jobs:
       - name: Run Tests
         run: |
           pytest
+
+      - name: Show Current Directory
+        run: pwd
+
+      - name: Show Files
+        run: ls -la
