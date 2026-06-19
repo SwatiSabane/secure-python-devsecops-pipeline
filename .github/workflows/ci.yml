@@ -33,3 +33,7 @@ jobs:
 
       - name: Show Files
         run: ls -la
+
+      - name: Build Docker Image
+        run: |
+          docker build -t devsecops-app .
